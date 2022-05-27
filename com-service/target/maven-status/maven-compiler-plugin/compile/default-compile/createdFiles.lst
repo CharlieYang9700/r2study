@@ -1,0 +1,6 @@
+com\code\pojo\vo\UserInfoVO.class
+com\code\service\impl\UserInfoServiceImpl.class
+com\code\pojo\domain\UserInfo.class
+com\code\pojo\param\UserInfoInsertParam.class
+com\code\service\UserInfoService.class
+com\code\dao\UserInfoDao.class

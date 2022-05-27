@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.code.dao.UserInfoDao">
+    <insert id="insertUserInfo" parameterType="com.code.pojo.param.UserInfoInsertParam">
+        insert into user_info (id,username,password,salt,phone_number,enable) value (#{id},#{username},#{password},#{salt},#{phoneNumber},#{enable});
+    </insert>
+</mapper>
